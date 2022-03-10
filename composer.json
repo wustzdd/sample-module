@@ -2,7 +2,7 @@
   "name": "wustzdd/sample-module",
   "description": "PayFabric Payment Gateway",
   "type": "magento2-module",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
@@ -15,7 +15,7 @@
       "PayFabric\\Payment\\registration.php"
     ],
     "psr-4" : {
-      "wustzdd\\sample-module\\PayFabric\\Payment\\" : ""
+      "PayFabric\\Payment\\" : "PayFabric\\Payment\\"
     }
 
   }
