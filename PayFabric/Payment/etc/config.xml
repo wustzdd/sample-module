@@ -1,0 +1,32 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <payfabric_payment>
+                <active>0</active>
+                <model>PayFabric\Payment\Model\PaymentMethod</model>
+                <title>PayFabric</title>
+                <payment_action>sale</payment_action>
+                <order_status>pending</order_status>
+                <payment_cancelled>canceled</payment_cancelled>
+                <merchant_id></merchant_id>
+                <merchant_password></merchant_password>
+                <display_mode>Redirect</display_mode>
+                <debug_log>1</debug_log>
+                <environment>production</environment>
+                <is_gateway>1</is_gateway>
+                <allowspecific>0</allowspecific>
+                <specific_countries></specific_countries>
+                <specific_currencies></specific_currencies>
+            </payfabric_payment>
+        </payment>
+        <csp>
+            <policies>
+                <storefront>
+                    <frame-ancestors>
+                        <inline>0</inline>
+                    </frame-ancestors>
+                </storefront>
+            </policies>
+        </csp>
+    </default>
+</config>
