@@ -1,2 +1,2 @@
 # sample-module
-This is sample module
+test
