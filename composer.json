@@ -12,7 +12,7 @@
   },
   "autoload": {
     "files": [
-      "wustzdd\\sample-module\\PayFabric\\Payment\\registration.php"
+      "PayFabric\\Payment\\registration.php"
     ],
     "psr-4" : {
       "wustzdd\\sample-module\\PayFabric\\Payment\\" : ""
