@@ -1,5 +1,5 @@
 {
-  "name": "payfabric/module-payment",
+  "name": "wustzdd/sample-module",
   "description": "PayFabric Payment Gateway",
   "type": "magento2-module",
   "version": "1.0.0",
