@@ -1,2 +1,2 @@
 # sample-module
-test
+v6.0.0
