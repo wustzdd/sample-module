@@ -2,7 +2,7 @@
   "name": "wustzdd/sample-module",
   "description": "PayFabric Payment Gateway",
   "type": "magento2-module",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
