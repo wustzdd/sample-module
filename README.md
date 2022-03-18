@@ -1,2 +1,2 @@
 # sample-module
-v8.0.0
+v9.0.0
